@@ -1,7 +1,7 @@
 import { RouterProvider } from "react-router"
 import { router } from "./app.routes.jsx"
 import { AuthProvider } from "./features/auth/services/auth.context.jsx"
-import { InterviewProvider } from "./features/interview/interview.context.jsx"
+import { InterviewProvider } from "./features/interview/InterviewContext.jsx"
 function App(){
 
   return (
